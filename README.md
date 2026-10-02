@@ -1,4 +1,4 @@
-# 🌿 ReWear — Sustainable Clothing Swap & Circular Fashion Platform
+# ReWear — Sustainable Clothing Swap & Circular Fashion Platform
 
 [![Node.js](https://img.shields.io/badge/Node.js-v18+-green.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -28,31 +28,31 @@
 
 ---
 
-## ✨ Features
+## Features
 
-### 👤 User & Authentication
+### User & Authentication
 - **Secure Authentication**: JWT-based user authentication and session management via Passport.js.
 - **Account Management**: Profile personalization, password reset workflows, and user activity history.
 
-### 👗 Wardrobe Management & Marketplace
+### Wardrobe Management & Marketplace
 - **Item Listings**: Create, edit, and categorize items with multi-image Cloudinary upload and real-time progress indicators.
 - **Search & Discovery**: Browse, filter, and inspect listings with item condition and sizing specifications.
 
-### 🔄 Swap Negotiation & Exchange
+### Swap Negotiation & Exchange
 - **Swap Requests**: Propose, accept, reject, or counter clothing swaps between users.
 - **Real-Time Chat**: Live peer-to-peer messaging powered by Socket.io for coordinating logistics and item details.
 - **Reputation & Feedback**: Post-swap reviews and ratings to foster trust within the community.
 
-### 🌱 Sustainability Impact
+###  Sustainability Impact
 - **Impact Tracking**: Calculate ecological metrics (such as water preserved, carbon emissions offset, and garments diverted from landfills).
 
-### 🛡️ Administration & Moderation
+### Administration & Moderation
 - **Admin Dashboard**: Dedicated management portal to inspect swap transactions, manage user disputes, and moderate item listings.
 - **Notifications**: In-app and email alert triggers for swap statuses and messages.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: [React](https://reactjs.org/) (Vite bundler)
@@ -71,7 +71,7 @@
 
 ---
 
-## 📂 Architecture & Directory Structure
+## Architecture & Directory Structure
 
 ```text
 ReWear-main/
@@ -105,7 +105,7 @@ ReWear-main/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -194,7 +194,7 @@ The client app should now be live on `http://localhost:5173`.
 
 ---
 
-## 🧪 Database Seeding
+## Database Seeding
 
 To populate your database with dummy users, categories, clothing items, and demo swap interactions:
 
@@ -207,7 +207,7 @@ node utils/seed.js
 
 ---
 
-## 📡 API Overview
+## API Overview
 
 The backend exposes a REST API under the `/api` prefix:
 
@@ -223,14 +223,14 @@ The backend exposes a REST API under the `/api` prefix:
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 - **Backend**: Ready for deployment to platforms like [Render](https://render.com/), [Railway](https://railway.app/), or [Heroku]. Refer to `backend/DEPLOYMENT.md` for specific instructions.
 - **Frontend**: Configured for continuous deployment via [Vercel](https://vercel.com/) (using `frontend/vercel.json`) or [Netlify](https://www.netlify.com/). Refer to `frontend/DEPLOYMENT.md`.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -242,6 +242,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
